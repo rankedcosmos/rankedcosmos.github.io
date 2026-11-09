@@ -272,7 +272,7 @@ footer a { color: var(--muted); }
         <div class="amount">$9<small>instant download</small></div>
         <ul><li>17 illustrated pages</li><li>5 star-hopping charts</li><li>Planet field guide</li><li>2027 sky calendar</li><li>Binocular target list</li><li>Night log and 4-week plan</li></ul>
         <a class="btn" href="#buy" data-checkout>Get the guide, $9</a>
-        <p class="fine">14-day money-back guarantee. Secure payment and delivery by Gumroad. Taxes may be added at checkout depending on your country.</p>
+        <p class="fine">Instant download. Secure payment and delivery by Gumroad. Taxes may be added at checkout depending on your country.</p>
       </div>
     </div>
   </div>
@@ -284,7 +284,7 @@ footer a { color: var(--muted); }
     <details class="reveal"><summary>Do I need a telescope?</summary><p>No. Everything in the guide works with your eyes alone. One section shows what a simple pair of binoculars adds.</p></details>
     <details class="reveal"><summary>Does it work where I live?</summary><p>Yes, in both hemispheres. It includes charts for northern and southern skies. What you see depends on your weather, latitude and light pollution, and the guide shows you how to plan around them.</p></details>
     <details class="reveal"><summary>What format is it?</summary><p>A 17-page PDF, designed to read on a phone or tablet. Its dark pages are easy on night-adapted eyes, but use a lot of ink if you print them.</p></details>
-    <details class="reveal"><summary>What if the file doesn't work, or I don't like it?</summary><p>Write to rankedcosmos@gmail.com and we will send a working copy. And if the guide is not for you, you have a 14-day money-back guarantee. See the <a href="legal.html">terms of sale</a>.</p></details>
+    <details class="reveal"><summary>What if the file doesn't work?</summary><p>Write to rankedcosmos@gmail.com and we will send a working copy or refund you. Because this is an instant digital download, you waive your right of withdrawal at checkout, so there are no refunds for a change of mind.</p></details>
     <details class="reveal"><summary>Who made it?</summary><p>Ranked Cosmos, a small independent space channel. The guide was drafted with AI tools. Dates were computed with an astronomy library and checked against published sources, listed inside. It is not affiliated with or endorsed by NASA.</p></details>
   </div>
 </section>
@@ -298,7 +298,7 @@ footer a { color: var(--muted); }
 
 <script>
 // Paste the Gumroad product link here once the product exists. Until then, buy buttons scroll to the price card.
-const CHECKOUT_URL = "https://rankedcosmos.gumroad.com/l/first-night";
+const CHECKOUT_URL = "https://rankedcosmos.gumroad.com/l/first-night?wanted=true";
 if (CHECKOUT_URL) {
   document.querySelectorAll("[data-checkout]").forEach(a => a.href = CHECKOUT_URL);
   const g = document.createElement("script"); g.src = "https://gumroad.com/js/gumroad.js"; document.head.appendChild(g);
